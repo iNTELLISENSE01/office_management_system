@@ -11,7 +11,7 @@ $viewDesignation = $oms->select_designation();
         <div id="page-wrapper">
             <div class="row">
                 <div class="col-lg-10">
-                    <h1 class="page-header">Add Designation</h1>
+                    <h1 class="page-header">Add Department</h1>
                 </div>
                 <!-- /.col-lg-12 -->
             </div>
@@ -25,7 +25,7 @@ $viewDesignation = $oms->select_designation();
                 ?>
                     <form role="form" method="post">
                         <div class="form-group">
-                            <label>Designation Name</label>
+                            <label>Department Name</label>
                             <input type="text" name="designation_name" class="form-control">
                             <?php
                                 if(isset($designation['designation_name'])){
@@ -44,7 +44,7 @@ $viewDesignation = $oms->select_designation();
                 <div class="col-sm-10">
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            Designation List
+                        Department List
                         </div>
                         <!-- /.panel-heading -->
                         <div class="panel-body">
@@ -52,7 +52,7 @@ $viewDesignation = $oms->select_designation();
                                 <thead>
                                     <tr>
                                         <th>#</th>
-                                        <th>Designation</th>
+                                        <th>Department</th>
                                         <th>Action</th>
                                     </tr>
                                 </thead>

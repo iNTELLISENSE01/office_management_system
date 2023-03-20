@@ -30,7 +30,7 @@ $viewImp = $oms->view_employee();
                                 <thead>
                                     <tr>
                                         <th>Name</th>
-                                        <th>Designation</th>
+                                        <th>Department</th>
                                         <th>Address</th>
                                         <th>Email</th>
                                         <th>Action</th>

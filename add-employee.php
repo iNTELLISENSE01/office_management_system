@@ -34,7 +34,7 @@ $desig_select = $oms->select_designation();
                             ?>
                         </div>
                         <div class="form-group">
-                            <label>Designation</label>
+                            <label>Department</label>
                             <select name="designation" class="form-control">
                                 <option value="">--- Select ---</option>
                                 <?php

@@ -62,9 +62,9 @@ if(isset($_GET['action']) && $_GET['action'] == "ckeckout") {
             <!-- /.navbar-header -->
 
             <ul class="nav navbar-top-links navbar-right">
-                <li class="dropdown">
+                <!-- <li class="dropdown">
                     <a href="?action=ckeckout" class="btn btn-success"><strong>Check Out</strong></a>
-                </li>
+                </li> -->
                 <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">
                         <i class="fa fa-envelope fa-fw"></i><sup><span class="badge">
@@ -250,7 +250,7 @@ if(isset($_GET['action']) && $_GET['action'] == "ckeckout") {
                             <!-- /.nav-second-level -->
                         </li>
                         <li>
-                            <a href="add-designation.php"><i class="fa fa-plus fa-fw"></i> Add Designation</a>
+                            <a href="add-designation.php"><i class="fa fa-plus fa-fw"></i> Add Department</a>
                         </li>
                         <li>
                             <a><i class="fa fa-plus fa-fw"></i> Leave<span class="fa arrow"></span></a>
@@ -264,9 +264,7 @@ if(isset($_GET['action']) && $_GET['action'] == "ckeckout") {
                             </ul>
                             <!-- /.nav-second-level -->
                         </li>
-                        <li>
-                            <a href="setting.php"><i class="fa fa-cog fa-fw"></i> Setting</a>
-                        </li>
+                       
                         <li>
                             <a><i class="fa fa-tasks fa-fw"></i> Task<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
@@ -296,6 +294,11 @@ if(isset($_GET['action']) && $_GET['action'] == "ckeckout") {
                             </ul>
                             <!-- /.nav-second-level -->
                         </li>
+
+                        <li>
+                            <a href="setting.php"><i class="fa fa-cog fa-fw"></i> Setting</a>
+                        </li>
+
                     </ul>
                 </div>
                 <!-- /.sidebar-collapse -->
