@@ -709,10 +709,10 @@ class Oms {
 		$query -> bindValue(":id", $id);
 		$result = $query->execute();
 		if($result){
-			header('Location: lask-list.php');
+			header('Location: task-list.php');
 		}
 		else{
-			$msg['error'] = '<p class="text-danger"><strong>Error! </strong>Data Not Update!</p>';
+			$msg['error'] = '<p class"text-danger"><strong>Error! </strong>Data Not Update!</p>';
 		}
 	}
 

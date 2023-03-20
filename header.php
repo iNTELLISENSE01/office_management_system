@@ -250,7 +250,7 @@ if(isset($_GET['action']) && $_GET['action'] == "ckeckout") {
                             <!-- /.nav-second-level -->
                         </li>
                         <li>
-                            <a href="add-designation.php"><i class="fa fa-plus fa-fw"></i> Add Department</a>
+                            <a href="add-designation.php"><i class="fa fa-plus fa-fw"></i> Department</a>
                         </li>
                         <li>
                             <a><i class="fa fa-plus fa-fw"></i> Leave<span class="fa arrow"></span></a>
